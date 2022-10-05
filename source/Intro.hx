@@ -5,6 +5,9 @@ import sys.FileSystem;
 #if desktop
 import sys.thread.Thread;
 #end
+#if sys
+// sys refference here
+#end
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.FlxState;
